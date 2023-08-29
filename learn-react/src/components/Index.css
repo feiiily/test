@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .NavigationBar {} */
+
+.slogen {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.indexul {
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #66ccff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.indexli {
+    /* 边框线 */
+    /* border-right: 1px solid rgba(255,255,0,0.3); */
+    display: inline;
+}
+
+.threeList {
+    margin: 60px;
+    /* 声明一个容器 */
+    display: grid;
+    /*  声明列的宽度  */
+
+    /*  声明行间距和列间距  */
+    grid-template-columns: 1fr 3fr 1fr;
+    /* height: 880px; */
+    grid-gap: 0;
+
+    /*  声明行间距和列间距  */
+    /* gap: 8px; */
+    /* align-items: stretch;
+    justify-content: space-around;
+    margin: 8px; */
+
+}
+
+.Part_userInfo {
+    background: #19CAAD;
+}
+
+.Part_messBoard {
+    background: #8CC7B5;
+}
+
+.Part_ad {
+    background: #D1BA74;
+
+}
+
+.item {
+    text-align: center;
+    font-size: 200%;
+    color: #fff;
+}

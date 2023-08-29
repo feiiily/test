@@ -1,0 +1,49 @@
+.clickButton{
+    width: 300px;
+    height: 35px;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #64a9d9;
+    cursor: pointer;
+    color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  .background_changeInformation {
+    color: #fff;
+    background-image: url(../../光夜.png);
+    background-size: cover;
+    /*背景图适应屏幕*/
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    min-height: 100vh;
+  }
+
+  .changeInformationBorder{
+    width: 400px;
+    height: 400px;
+    /* background-color: white; */
+    margin: auto;
+    padding: 30px;
+    padding-top: 100px;
+    border: solid;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .headline{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .liStyle{
+   
+   
+    margin:20px 0;
+  }

@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .background {
+    background-image: url(../../光夜.png);
+    background-size: cover;
+    /*背景图适应屏幕*/
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    min-height: 100vh;
+  }
+  .logo{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: orange; */
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .log_in {
+    width: 400px;
+    height: 400px;
+    /* background-color: white; */
+    margin: auto;
+    padding: 30px;
+    padding-top: 100px;
+    border: solid;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 0;
+  }
+  .userInput {
+    width: 300px;
+    height: 30px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 20px;
+  }  
+  .clickButton {
+    width: 300px;
+    height: 35px;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #64a9d9;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .welcome{
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  .homepagelink{
+    text-align: center;
+    border: solid;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+  }

@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navibar {
+    height: 36px;
+    text-align: center;
+    font-size: 30px;
+}
